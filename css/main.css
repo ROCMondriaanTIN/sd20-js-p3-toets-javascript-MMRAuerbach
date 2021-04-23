@@ -1,0 +1,112 @@
+/* Basis informatie/ resetten van standaard waarde */
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    background-color: #659DBD;
+    color: #FFF;
+}
+
+*:focus {
+    outline-width: 0;
+}
+
+/* CSS van deze layout begint hier, uiteraard met classes */
+.wrapper {
+    margin-left: 10px;
+}
+
+.header_image {
+    max-width: 250px;
+}
+
+.grid_header {
+    display: grid;
+    grid-template-columns: 250px auto;
+    grid-column-gap: 10px;
+}
+
+.topnav {
+    background-color: #FFF;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav .link {
+    float: left;
+    display: block;
+    color: #8D8741;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav .link:hover {
+    background-color: #e9de68;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav .link.active {
+    background-color: #8D8741;
+    color: white;
+}
+
+/* The grid */
+.wrapper {
+    max-width: 800px;
+}
+
+.basic_button {
+    border: 1px solid #BC986A;
+    background-color: #BC986A;
+    border-radius: 5px;
+    color: #FBEEC1;
+    cursor: pointer;
+    padding: 10px;    
+}
+
+.basic_button:hover {
+    background-color: #BC986A;
+    color: #FBEEC1;
+    border: 1px solid #FBEEC1;
+}
+
+.basic_input {
+    background-color: #FBEEC1;
+    border: 1px solid #BC986A;
+    color: #BC986A;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.basic_input::placeholder {
+    color: #f7c88c;
+}
+
+.footer {
+    margin: 25px 0 25px 5px;
+}
+
+.link {
+    color: #FBEEC1;
+    text-decoration: none;
+}
+
+.link.disabled {
+    cursor: not-allowed;
+}
+
+.link:hover {
+    color: #F7C88C;
+}
+
+/* Schrijf eigen CSS code hier onder, niet hier boven ;-) */

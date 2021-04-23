@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Javascript Toets 01</title>
+</head>
+<body>
+    <section class="wrapper">
+        <header>
+            <h1>Opdracht 4</h1>
+            <ul>
+                <li>Maak een variabele aan met als waarde een lege array</li>
+                <li>Als je op de eerste button klikt, moet de waarde uit de het input element
+                    in de array gestopt worden. Daarna toon je alle namen in onderste article
+                </li>
+                <li>
+                    Als je op de tweede button klikt, verwijder je de laatste naam uit de array.
+                    En daarna toon je alle namen in de onderste article.
+                </li>
+            </ul>
+        </header>
+        <main>
+            <section>
+                <article>
+                    <p>
+                        <label for="name_button">Voer een naam in</label><br>
+                        <input type="text" placeholder="Een naam" class="basic_input">
+                    </p>
+                    <p>
+                        <button class="basic_button">Klik om de naam aan de array toe te voegen.</button>
+                    </p>
+                    <p>
+                        <button class="basic_button">Klik om de laatste naam te verwijderen.</button>
+                    </p>
+                </article>
+            </section>  
+            <section>
+                <h2>Alle namen komen in onderstaande article</h2>
+                <article class="show_names">
+                </article>
+            </section>
+        </main>
+    </section>
+    <footer class="footer">
+        <section>
+            <p>
+                Denk aan het opslaan van je werk in GIT!
+            </p>
+            <a href="question_two.html" class="link">&lt; Vorige opdracht</a> 
+            ||
+            <a class="link disabled">Volgende opdracht &gt;</a>
+        </section>
+    </footer>   
+    <script src="js/main.js"></script>
+</body>
+</html>
