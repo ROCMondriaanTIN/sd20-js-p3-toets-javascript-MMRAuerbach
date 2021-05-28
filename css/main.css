@@ -110,3 +110,8 @@ body {
 }
 
 /* Schrijf eigen CSS code hier onder, niet hier boven ;-) */
+
+.change_me{
+    background-color: #e9de68;
+    border: 1px solid #4b3b04;
+}
