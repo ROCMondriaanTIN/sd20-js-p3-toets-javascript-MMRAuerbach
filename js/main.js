@@ -14,7 +14,7 @@ const firstButton = document.querySelector('.firstbutton');
 //Als button bestaat gaan we eventlistner toevoegen
 if (firstButton) {
   firstButton.addEventListener('click', function() {
-    const userName = prompt('Wat is je naam?');
+    const userName = erprompt('Wat is je naam?');
     console.log(userName);
   })
 }
